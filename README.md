@@ -12,7 +12,7 @@
 Использовались библиотеки **Pytest** и **Selenium**.  
 Проект выполнен с использованием архитектуры **PageObject**  
 Браузер Google Chrome версия 109.0.5414.120 и chromedriver для этой версии.  
-**Проект содержит файлы и папки:**\
+**Проект содержит файлы и папки:**
 - conftest.py содержит весь необходимый код для отлова неудачных тестовых случаев и создания скриншота страницы в случае, если какой-либо тестовый пример не сработает;  
 - pages/base.py содержит реализацию шаблона PageObject для Python;  
 - pages/auth_locators.py локаторы страницы авторизации для работы с автотестами;  
@@ -21,7 +21,8 @@
 - settings.py содержит тестовые данные для тестов.  
 
 **Запуск тестов:**\
-Установите все требования: pip install -r requirements.txt  
+Установите все требования:  
+*pip install -r requirements.txt*  
 Загрузите Selenium WebDriver с <https://chromedriver.chromium.org/downloads> (выберите версию, совместимую с вашим браузером)  
 Запустите тесты все тесты разом командой из терминала:   
 *python -m pytest -v --driver Chrome --driver-path C:/Drivers_for_Selenium/chromedriver.exe*  
